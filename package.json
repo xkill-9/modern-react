@@ -1,10 +1,10 @@
 {
   "name": "react-webpack",
   "version": "1.0.0",
-  "description": "Boilerplate for a ReactJS development environment using Webpack and Babel",
+  "description": "Following Stephen Grider's course 'Modern React with Redux'",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xkill-9/react-webpack.git"
+    "url": "https://github.com/xkill-9/modern-react.git"
   },
   "main": "webpack.config.js",
   "scripts": {
@@ -26,7 +26,8 @@
     "react-dom": "^15.2.1",
     "react-redux": "^4.4.5",
     "react-router": "^2.6.0",
-    "redux": "^3.5.2"
+    "redux": "^3.5.2",
+    "youtube-api-search": "0.0.5"
   },
   "devDependencies": {
     "babel-core": "^6.11.4",
