@@ -5,7 +5,6 @@ const propTypes = {
 };
 
 function VideoDetail({ video }) {
-
   if (!video) {
     return <div>Loading ...</div>;
   }

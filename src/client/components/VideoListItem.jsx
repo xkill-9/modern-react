@@ -1,13 +1,14 @@
 import React, { PropTypes } from 'react';
 
 const propTypes = {
+  onVideoSelect: PropTypes.func.isRequired,
   video: PropTypes.object,
 };
 
-function VideoListItem({ video }) {
+function VideoListItem({ video, onVideoSelect }) {
   const imageURL = video.snippet.thumbnails.default.url;
   return (
-    <li className="list-group-item">
+    <li onClick={() => onVideoSelect(video)} className="list-group-item">
       <div className="video-list media">
         <div className="media-left">
           <img src={imageURL} alt="Video thumbnail" className="media-object" />
