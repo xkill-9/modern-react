@@ -1,4 +1,5 @@
 import React, { PropTypes } from 'react';
+import './style.scss';
 
 const propTypes = {
   video: PropTypes.object,
